@@ -10,7 +10,6 @@ body{
     margin:0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Silkscreen", sans-serif;
 }
 
 .header{
@@ -54,6 +53,7 @@ body{
     padding: 10px 14px;
     display: flex;
     align-items: center;
+    font-family: "Silkscreen", sans-serif;
 
 }
 
@@ -118,6 +118,14 @@ body{
     padding-top: 250px;
     font-size: 50px;
     animation: fadeIn 5s;
+}
+
+h1{
+    font-family: "Satisfy", sans-serif;
+}
+
+h3{
+    font-family: "Bree Serif", sans-serif;
 }
 
 @keyframes fadeIn {
