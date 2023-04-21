@@ -28,7 +28,7 @@ h1 {
 .moving-image {
   position: relative;
   overflow: hidden;
-  animation: move 25s linear infinite;
+  animation: move 5s linear infinite;
   animation-name: move;
   margin: 60px;
 }
