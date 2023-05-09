@@ -132,3 +132,16 @@ h3{
     0% { opacity: 0; }
     100% { opacity: 1; }
   }
+
+  h12{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    align-items: center;
+    display: flex;
+    padding: 10px 14px;
+    
+  }
+
+  h12, i{
+    
+    margin-right: 20px;
+  }
