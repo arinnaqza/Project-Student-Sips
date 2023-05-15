@@ -150,3 +150,30 @@ h3{
     padding: 10px 14px;
     
   }
+
+  footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: auto;
+    width: 100%;
+    color: #725529;
+  }
+
+.footer-bottom {
+    background: #fbebd4;
+    width: 100vw;
+    padding: 10px 0;
+    text-align: center;
+}
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+.footer-bottom span {
+    text-transform: uppercase;
+    font-weight: 200;
+
+}
