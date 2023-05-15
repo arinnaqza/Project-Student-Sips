@@ -5,22 +5,34 @@
         <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
         <meta name="vieport" content="width=device-width, inital-scale=1.0">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Silkscreen">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Satisfy">
     </head>
     <body>
-        <div class="header">
-            <div class="side-nav">
-                <a href="#" class="logo">
-                    <img src="ss-logo.png" class="logo-img">
-                </a>
-                <ul class="nav-links">
-                    <li><a href="mainpage.html"><i class='bx bx-home'></i><p>HOME</p></a></li>
-                    <li><a href="aboutUs.html"><i class='bx bx-coffee' ></i><p>ABOUT US</p></a></li>
-                    <li><a href="area.html"><i class='bx bx-area'></i><p>AREA</p></a></li>
-                    <li><a href="#"><i class='bx bx-map'></i><p>MAP</p></a></li>
-                    <div class="active"></div>
-                </ul>
+        <header>
+            <div class="logo"><a href="mainpage.html"><img class="logo-ss" src="ss-logo.png"></a></div>
+            <div class="webname">Student Sips</div>
+            <div class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
             </div>
-        </div>
+            <nav class="nav-bar">
+                <ul>
+                    <li>
+                        <a href="mainpage.html" class="active">Home</a>
+                    </li>
+                    <li>
+                        <a href="aboutUs.html" class="active">About</a>
+                    </li>
+                    <li>
+                        <a href="area.html" class="active">Area</a>
+                    </li>
+                    <li>
+                        <a href="" class="active">Map</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
         <div class = "row">
             <div class = "moving-image image1">
                 <img src = "c1.jpeg" width = 15%>
@@ -38,6 +50,18 @@
         </div>
 
         <h1>ABOUT US</h1>
+        <footer>
+            <div class="footer-bottom">
+                <p>Copyright &copy;2023 Student Sips. designed by<span> Arinna, Winnie, Aidah</span> </p>
+            </div>
+        </footer>
+        <script>
+            hamburger = document.querySelector(".hamburger");
+            hamburger.onclick = function(){
+                navBar = document.querySelector(".nav-bar");
+                navBar.classList.toggle("active");
+            }
+        </script>
     </body>
 </html>
 
