@@ -193,6 +193,7 @@ body{
     position: relative;
     margin:2rem;
     width: 40rem;
+    text-align: center;
  }
  
  .cafe-popup .popup.active{
@@ -200,7 +201,8 @@ body{
  }
  
  .cafe-popup .popup img{
-    height: 100%;
+    height: 110%;
+    width: 100%;
     padding: 5px;
  }
 
@@ -271,17 +273,22 @@ body{
     padding: 10px;
  }
  
- .cafe-popup .popup p{
-    text-align: center;
+ .cafe-popup .popup a{
     line-height: 1.5;
-    font-size: 1rem;
-    color:#777;
+    font-size: 1.2rem;
+    color:#ad926b;
+    text-align: center;
  }
  
- .cafe-popup .popup .price{
+ .cafe-popup .popup a:hover{
+    color: #725529;
+ }
+
+ .cafe-popup .popup .optime{
     text-align: center;
-    font-size: 2rem;
+    font-size: 15px;
     color:#777;
+    margin: 5px;
  }
 
  
