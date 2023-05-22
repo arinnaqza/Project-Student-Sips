@@ -254,7 +254,7 @@ body{
 
  .cafe-popup .popup .fa-times{
     position: relative;
-    top:0.02rem; left: 25rem;
+    top:0.02rem; left: 23rem;
     cursor: pointer;
     color:#fff;
     font-size: 2rem;
@@ -303,7 +303,8 @@ body{
     .cafe-popup .popup img{
        height: 25rem;
     }
- 
+
+    
  }
  
  @media (max-width:450px){
@@ -311,7 +312,10 @@ body{
     html{
        font-size: 50%;
     }
- 
+    
+    .cafe-popup .popup .fa-times{
+        top:-1rem; left: 19rem;
+    }
  }
 
 header {
