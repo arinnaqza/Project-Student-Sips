@@ -121,6 +121,7 @@ body{
     color: #ad926b;
     font-weight: 500;
     text-transform: capitalize;
+    padding: 0px 5px
 }
 .line{
     width: 80%;
@@ -428,11 +429,11 @@ footer{
 .footer-bottom {
     background: #fbebd4;
     width: 100vw;
-    padding: 10px 0;
+    padding: 4px 0;
     text-align: center;
 }
 .footer-bottom p{
-    font-size: 14px;
+    font-size: 10px;
     word-spacing: 2px;
     text-transform: capitalize;
 }
