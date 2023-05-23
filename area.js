@@ -1,3 +1,5 @@
+//-----------------------------AREA FILTER PART-----------------------------
+
 const cafeBtns = document.querySelectorAll('.cafe-btn');
 const cafeLists = document.querySelectorAll('.cafe-list');
 
@@ -31,12 +33,12 @@ function showCafeArea(newCafeBtn){
 }
 //-----------------------------POP UP PART-----------------------------
 
-let preveiwContainer = document.querySelector('.cafe-popup');
-let previewBox = preveiwContainer.querySelectorAll('.popup');
+let previewContainer = document.querySelector('.cafe-popup');
+let previewBox = previewContainer.querySelectorAll('.popup');
 
 document.querySelectorAll('.cafe-container .cafe-list').forEach(product =>{
   product.onclick = () =>{
-    preveiwContainer.style.display = 'flex';
+    previewContainer.style.display = 'flex';
     let name = product.getAttribute('data-name');
     previewBox.forEach(preview =>{
       let target = preview.getAttribute('data-target');
@@ -50,9 +52,11 @@ document.querySelectorAll('.cafe-container .cafe-list').forEach(product =>{
 previewBox.forEach(close =>{
   close.querySelector('.fa-times').onclick = () =>{
     close.classList.remove('active');
-    preveiwContainer.style.display = 'none';
+    previewContainer.style.display = 'none';
   };
 });
+
+//-----------------------------NAVBAR PART-----------------------------
 
 hamburger = document.querySelector(".hamburger");
           hamburger.onclick = function(){
