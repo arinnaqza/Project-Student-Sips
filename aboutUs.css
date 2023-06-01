@@ -49,7 +49,7 @@ body {
 .moving-image {
   position: relative;
   overflow: hidden;
-  animation: move 25s linear infinite;
+  animation: move 30s linear infinite;
   animation-name: move;
   margin: 50px;
 }
