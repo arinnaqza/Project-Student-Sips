@@ -4,10 +4,12 @@
     list-style: none;
     text-decoration: none;
     box-sizing: border-box;
+
 }
 
 body {
     background-image: url('cafe_main.jpeg');
+    background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     width: 100%;
