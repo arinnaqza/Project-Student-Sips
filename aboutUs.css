@@ -162,11 +162,22 @@ header {
   header{
       padding: 0 50 px;
   }
+
 }
 
 @media only screen and (max-width: 1100px){
   header{
       padding: 0 30 px;
+  }
+  .aboutUs h1{
+    font-size: 3vw;
+  }
+  .aboutUs p{
+    font-size: 1.5vw;
+  }
+  #cover{
+    width: 50%;
+    height: 50%;
   }
 }
 
@@ -208,6 +219,16 @@ header {
   }
   .nav-bar ul li a{
       margin-bottom: 12px;
+  }
+  .aboutUs h1{
+    font-size: 4.5vw;
+  }
+  .aboutUs p{
+    font-size: 2vw;
+  }
+  #cover{
+    width: 50%;
+    height: 50%;
   }
 }
 
