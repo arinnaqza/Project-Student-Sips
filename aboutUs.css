@@ -20,6 +20,7 @@ body {
   position: absolute;
   text-align: center;
   font-size: 2.5vw;
+  font-family: 'Times New Roman';
   top: 38%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -29,6 +30,7 @@ body {
 .aboutUs p {
   position: absolute;
   text-align: center;
+  font-family: 'Times New Roman';
   font-size: 1.2vw;
   top: 50%;
   left: 50%;
